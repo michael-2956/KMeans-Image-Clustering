@@ -6,6 +6,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
   - [Advanced Usage](#advanced-usage)
+- [How clusters look like](#how-clusters-look-like)
 
 ## Description
 
