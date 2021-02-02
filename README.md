@@ -60,5 +60,6 @@ When the program is started, you can modify model settings. Here's their descrip
 
 ## How clusters look like
 
-This is a `res = 3` and `clusters_num = 10` configuration.
+This is a `res = 3` and `clusters_num = 10` configuration.\
+\
 ![cluster_points.png](images/cluster_points.png?raw=true "Clusters view")
