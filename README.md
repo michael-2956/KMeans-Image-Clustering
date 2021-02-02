@@ -9,7 +9,7 @@
 
 ## Description
 
-This program learns structure of square pixel groups (res * res) via the k-means clusterisation algorhythm. Here's an example of a working model:
+This program learns structure of square pixel groups using the k-means clusterisation algorhythm. Here's an example of a working model:
 
 Input             |  Output
 :-------------------------:|:-------------------------:
