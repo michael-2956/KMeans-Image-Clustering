@@ -15,7 +15,7 @@ Input             |  Output
 :-------------------------:|:-------------------------:
 ![Morane_wing.png](examples/Morane_wing.png?raw=true "Input")  |  ![Morane_wing_out.png](examples/Morane_wing_out.png?raw=true "Output")
 
-The idea behind this program wa to build multiple clusterisation levels and try to extract high-level pattern recognition from it. The idea aslo was to run this from real time input.\
+The idea behind this program wa to build multiple clusterisation levels and try to extract high-level pattern recognition from it. The idea also was to run this from real time input.\
 Please note that this program is under heavy **testing & development**. The main pending problems include:
 1) The program should be split into multiple files
 2) The algorhythm should be rebuilt to use multiple clusterisation levels
@@ -56,3 +56,8 @@ When the program is started, you can modify model settings. Here's their descrip
 2) `clusters_num = 10` -- number of clusters the program will separate these squares into.
 3) `show = true` -- while training, whether to show the resulting cluster canter points.
 4) `iterations = 10000` -- number of iterations for training.
+
+## How clusters look like
+
+This is a `res = 3` and `clusters_num = 10` configuration.
+[cluster_points.png](examples/cluster_points.png?raw=true "Clusters view")
