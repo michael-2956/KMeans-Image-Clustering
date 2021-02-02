@@ -1,5 +1,4 @@
 // Copyright 2020 Mykhailo Bondarenko
-// this program is under heavy TESTING
 #include <iostream>
 #include <sys/stat.h>
 #include <opencv2/core/core.hpp>
