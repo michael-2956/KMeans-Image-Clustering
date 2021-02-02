@@ -15,7 +15,7 @@ Input             |  Output
 :-------------------------:|:-------------------------:
 ![Morane_wing.png](examples/Morane_wing.png?raw=true "Input")  |  ![Morane_wing_out.png](examples/Morane_wing_out.png?raw=true "Output")
 
-The idea behind this program wa to build multiple clusterisation levels and try to extract high-level pattern recognition from it.\
+The idea behind this program wa to build multiple clusterisation levels and try to extract high-level pattern recognition from it. The idea aslo was to run this from real time input.\
 Please note that this program is under heavy **testing & development**. The main pending problems include:
 1) The program should be split into multiple files
 2) The algorhythm should be rebuilt to use multiple clusterisation levels
