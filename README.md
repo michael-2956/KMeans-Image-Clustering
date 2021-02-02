@@ -24,12 +24,15 @@ Please note that this program is under heavy **testing & development**. The main
 
 To install the app, you need opencv4 preinstalled ([Linux](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html), [MacOS](https://docs.opencv.org/master/d0/db2/tutorial_macos_install.html), [Windows](https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html)).\
 \
-When it is installed, you need to build the app:\
+When it is installed, you need to **build** the app:\
+\
 First, clone the repo into your current folder and create the build directory in program's folder.\
 ```$ git clone https://github.com/michael-2956/KMeans-Image-Clustering.git```\
 ```$ cd KMeans-Image-Clustering && mkdir build && cd build```\
+\
 Then compile the program. It will check whether opencv is installed correctly for `cmake`.\
 ```$ cmake .. && cmake --build .```\
+\
 You can now run the program to check if it works:\
 ```$ ./KMeans_Image_Clustering```
 
@@ -38,9 +41,11 @@ You can now run the program to check if it works:\
 For the examples to work, you need to put images `images/Morane.jpg` and `images/city.png` in the `build` directory. From the `build` directory, run:\
 ```$ cp ../images/city.png city.png```\
 ```$ cp ../images/Morane.jpg Morane.jpg```\
+\
 To train the model and save it to a file, run:\
 ```$ ./KMeans_Image_Clustering --train city.png```\
 When the program asks you whether you want to change settings, type `n`.\
+\
 To test the resulting model, run:\
 ```$ ./KMeans_Image_Clustering --test Morane.jpg```
 
