@@ -15,7 +15,7 @@ Input             |  Output
 :-------------------------:|:-------------------------:
 ![Morane_wing.png](examples/Morane_wing.png?raw=true "Input")  |  ![Morane_wing_out.png](examples/Morane_wing_out.png?raw=true "Output")
 
-The idea behind this program wa to build multiple clusterisation levels and try to extract soe high-level pattern recognition from it.\
+The idea behind this program wa to build multiple clusterisation levels and try to extract high-level pattern recognition from it.\
 Please note that this program is under heavy **testing & development**. The main pending problems include:
 1) The program should be split into multiple files
 2) The algorhythm should be rebuilt to use multiple clusterisation levels
@@ -23,8 +23,9 @@ Please note that this program is under heavy **testing & development**. The main
 ## Installation
 
 To install the app, you need opencv4 preinstalled ([Linux](https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html), [MacOS](https://docs.opencv.org/master/d0/db2/tutorial_macos_install.html), [Windows](https://docs.opencv.org/master/d3/d52/tutorial_windows_install.html)).\
-Then, you need to build the app.\
-First clone the repo into your current folder and create the build directory in program's folder.\
+\
+When it is installed, you need to build the app:\
+First, clone the repo into your current folder and create the build directory in program's folder.\
 ```$ git clone https://github.com/michael-2956/KMeans-Image-Clustering.git```\
 ```$ cd KMeans-Image-Clustering && mkdir build && cd build```\
 Then compile the program. It will check whether opencv is installed correctly for `cmake`.\
