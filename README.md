@@ -41,11 +41,11 @@ To train the model and save it to a file, run:\
 ```$ ./KMeans_Image_Clustering --train city.png```\
 When the program asks you whether you want to change settings, type `n`.\
 To test the resulting model, run:\
-```$ ./KMeans_Image_Clustering --test Morane.png```
+```$ ./KMeans_Image_Clustering --test Morane.jpg```
 
 ### Advanced Usage
 
-When the program is started, you can modify model settings. Here's the their description:\
+When the program is started, you can modify model settings. Here's their description:
 1) `res = 3` -- the resolution of the side of the square the program will run on.
 2) `clusters_num = 10` -- number of clusters the program will separate these squares into.
 3) `show = true` -- while training, whether to show the resulting cluster canter points.
